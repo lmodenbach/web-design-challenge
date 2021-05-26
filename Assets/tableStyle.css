@@ -7,14 +7,16 @@ div.scroll {
   text-align:justify;
   margin-left: auto;
   margin-right: auto;
+  background-color:aliceblue;
 }
 
 tr:nth-child(even) {
 	background-color:powderblue;
 }
 
-div.background {
-  background-image: url("./Assets/data.png");
+div.data_background {
+  background-image: url("data.png");
   background-repeat: no-repeat;
   background-color:aliceblue;
+  background-size: cover;
 }
