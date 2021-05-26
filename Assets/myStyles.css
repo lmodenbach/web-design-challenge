@@ -33,7 +33,39 @@ div.home_background {
 
 div.comparisons_background {
   background-image: url("comparisons.png");
+  background-color: dodgerblue;
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+div.happiness_background {
+  background-image: url("happiness.png");
+  background-color:darkseagreen;
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+div.goal_background {
+  background-image: url("goal.png");
   background-color:aliceblue;
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+div.interest_background {
+  background-image: url("interest.png");
+  background-color:coral;
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+div.frequency_background {
+  background-image: url("frequency.png");
+  background-color: aliceblue;
   background-size: cover;
   width: 100%;
   height: 100%; 
