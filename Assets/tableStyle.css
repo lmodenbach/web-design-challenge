@@ -1,9 +1,20 @@
-.center {
-    margin-left: auto;
-    margin-right: auto;
-  }
+
+div.scroll {
+  width: 580px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 tr:nth-child(even) {
 	background-color:powderblue;
 }
 
+div.background {
+  background-image: url("./Assets/data.png");
+  background-repeat: no-repeat;
+  background-color:aliceblue;
+}
