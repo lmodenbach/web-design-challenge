@@ -19,4 +19,25 @@ div.data_background {
   background-repeat: no-repeat;
   background-color:aliceblue;
   background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+div.home_background {
+  background-image: url("dating.png");
+  background-color:aliceblue;
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+div.sidenav {
+  height: 100%; 
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  background-color:darkgrey; 
+  overflow-x: hidden; 
 }
