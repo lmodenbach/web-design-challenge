@@ -19,8 +19,8 @@ div.data_background {
   background-repeat: no-repeat;
   background-color:aliceblue;
   background-size: cover;
-  width: 100%;
-  height: 100%; 
+  width: auto;
+  height: auto; 
 }
 
 div.home_background {
@@ -35,40 +35,40 @@ div.comparisons_background {
   background-image: url("comparisons.png");
   background-color: dodgerblue;
   background-size: cover;
-  width: 100%;
-  height: 100%; 
+  width: auto;
+  height: auto; 
 }
 
 div.happiness_background {
   background-image: url("happiness.png");
   background-color:darkseagreen;
   background-size: cover;
-  width: 100%;
-  height: 100%; 
+  width: auto;
+  height: auto; 
 }
 
 div.goal_background {
   background-image: url("goal.png");
   background-color:aliceblue;
   background-size: cover;
-  width: 100%;
-  height: 100%; 
+  width: auto;
+  height: auto; 
 }
 
 div.interest_background {
   background-image: url("interest.png");
   background-color:coral;
   background-size: cover;
-  width: 100%;
-  height: 100%; 
+  width: auto;
+  height: auto; 
 }
 
 div.frequency_background {
   background-image: url("frequency.png");
   background-color: aliceblue;
   background-size: cover;
-  width: 100%;
-  height: 100%; 
+  width: auto;
+  height: auto; 
 }
 
 div.sidenav {
