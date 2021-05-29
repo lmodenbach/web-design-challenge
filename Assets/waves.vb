@@ -1,3 +1,4 @@
+'sub to quickly batch excel data into processing groups pre-jupyter notebook
 Sub waves()
 
     For Each ws In Worksheets
@@ -8,7 +9,15 @@ Sub waves()
     start = 2
     
     lastRow = (ws.Cells(Rows.Count, 1).End(xlUp).Row)
-     
+
+'create a batch out of specified ranges below on a new page using a for loop to iterate rows
+
+'identify where a new batch starts by recognizing a participant wave id of 1 preceded by a different number 
+'(last participant wave id number in old batch), or by recognizing the last row of data
+'copy the target column headers and paste onto new page, copy target column values back to the previous row where a
+'1 was found and paste under correct headers on new page
+
+'this was done in successive header/column values pairs        
     For Row = 3 To lastRow
         
         If (ws.Cells(Row, 2).Value = 1 And ws.Cells(Row, 2).Value <> ws.Cells((Row - 1), 2).Value) Or Row = lastRow Then
