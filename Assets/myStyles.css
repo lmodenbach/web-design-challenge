@@ -16,7 +16,6 @@ tr:nth-child(even) {
 
 div.data_background {
   background-image: url("../Media/data.png");
-  background-repeat: no-repeat;
   background-color:aliceblue;
   background-size: cover;
   width: auto;
