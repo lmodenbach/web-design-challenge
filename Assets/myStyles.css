@@ -61,7 +61,6 @@ div.interest_background {
 
 div.frequency_background {
   background-image: url("../Media/frequencyLightened.png");
-  background-color: aliceblue;
   background-size: cover;
   width: auto;
   height: auto; 
