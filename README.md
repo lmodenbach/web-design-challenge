@@ -5,5 +5,4 @@ Website designed to artfully display results from a series of analyses on a spee
 
 Visible at: https://lmodenbach.github.io/web-design-challenge/
 
-![web-design-challenge](https://user-images.githubusercontent.com/44123311/120085179-c8187d00-c08a-11eb-8eaa-c4f2fa19e808.png)
-
+![2021-05-30](https://user-images.githubusercontent.com/44123311/120125492-e905ce80-c16d-11eb-947e-a37a1e1e291c.png)
